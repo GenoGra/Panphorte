@@ -16,7 +16,7 @@ According to the accompanying work, this strategy can reduce graph redundancy, i
 
 ## Repository structure
 
-```text
+```
 Panphorte/
 ├── README.md
 ├── data
@@ -27,5 +27,66 @@ Panphorte/
     └── json.hpp
 ```
 
+## Requirements
+
+To build PANPHORTE you need:
+
+- A C++20-compatible compiler
+- make
+- BubbleGun
+
+You can install BubbleGun with:
+```
+pip install BubbleGun
+```
+
+## Installation
+Panphorte can be installe from source as follows:
+
+```
+git clone https://github.com/Mirkocoggi/Panphorte.git
+cd Panphorte
+make
+```
+
+## Usage
+
+```bash
+./panphorte -i <input.gfa> -o <output_dir> [--repeat_min_len <int>]
+```
+
+### Arguments
+
+- `-i <input.gfa>`  
+  Input pangenome graph in GFA format.
+
+- `-o <output_dir>`  
+  Output directory where the processed results will be written.
+
+- `--repeat_min_len <int>`  
+  Minimum length, in characters, of the repetitive element considered during detection.  
+  Default: `1`.
+
+## Examples
+
+Run PANPHORTE on the example graph:
+
+```bash
+./panphorte -i data/example.gfa -o results
+```
+
+Run PANPHORTE with a custom minimum repeat length:
+
+```bash
+./panphorte -i data/example.gfa -o results --repeat_min_len 3
+```
+
+## Notes
+
+- The default value of `repeat_min_len` is `1`
+- The project currently builds a single executable from `src/main.cpp`
+- The `vendor/json.hpp` header is included locally through `-I./vendor`
+
+
 ## References
-[1] Gfaffix [GitHub](https://github.com/codialab/GFAffix.git)
+[1] Gfaffix (https://github.com/codialab/GFAffix.git)
