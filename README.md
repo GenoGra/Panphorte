@@ -86,7 +86,7 @@ Visualization of the graph before and after applying Panphorte. The picture are 
 <table align="center">
   <tr>
     <td align="center">
-      <img src="pictures/base.png" alt="Original graph" width="85%"><br>
+      <img src="pictures/base.png" alt="Original graph" width="80%"><br>
       <em>Original graph with CNV misrepresentation.</em>
     </td>
     <td align="center">
