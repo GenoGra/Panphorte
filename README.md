@@ -89,4 +89,4 @@ Run PANPHORTE with a custom minimum repeat length:
 
 
 ## References
-[1] Gfaffix (https://github.com/codialab/GFAffix.git)
+[1] GFAffix (https://github.com/codialab/GFAffix.git)
