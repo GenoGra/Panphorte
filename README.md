@@ -41,7 +41,7 @@ pip install BubbleGun
 ```
 
 ## Installation
-Panphorte can be installe from source as follows:
+Panphorte can be installed from source as follows:
 
 ```
 git clone https://github.com/Mirkocoggi/Panphorte.git
@@ -89,4 +89,4 @@ Run PANPHORTE with a custom minimum repeat length:
 
 
 ## References
-[1] Gfaffix (https://github.com/codialab/GFAffix.git)
+[1] GFAffix (https://github.com/codialab/GFAffix.git)
