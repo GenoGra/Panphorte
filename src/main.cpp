@@ -1,6 +1,3 @@
-// gfa_bubble_fusion_intids_metrics.cpp
-// Compile: g++ -O3 -march=native -std=c++20 gfa_bubble_fusion_intids_metrics.cpp -o gfa_bubble_fusion -I./vendor
-// Requires: nlohmann/json.hpp in include path (e.g. vendor/json.hpp)
 
 #include <algorithm>
 #include <charconv>
@@ -162,7 +159,7 @@ struct Haplotype {
 static inline void usage(const char *prog) {
   std::cerr
     << "Usage:\n"
-    << "  " << prog << " -i <input.gfa> -o <output_dir> [--bubblegun <path>] [--repeat_min_len <int>] [--metrics <path>]\n";
+    << "  " << prog << " -i <input.gfa> -o <output_dir> [--repeat_min_len <int>] \n";
 }
 
 // ---- Link dedup ----
