@@ -41,7 +41,7 @@ pip install BubbleGun
 ```
 
 ## Installation
-Panphorte can be installe from source as follows:
+Panphorte can be installed from source as follows:
 
 ```
 git clone https://github.com/Mirkocoggi/Panphorte.git
