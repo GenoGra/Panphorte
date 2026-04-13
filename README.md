@@ -72,13 +72,13 @@ make
 Run PANPHORTE on the example graph:
 
 ```bash
-./panphorte -i data/example.gfa -o results
+./panphorte -i data/example_1.gfa -o results
 ```
 
 Run PANPHORTE with a custom minimum repeat length:
 
 ```bash
-./panphorte -i data/example.gfa -o results --repeat_min_len 3
+./panphorte -i data/example_1.gfa -o results --repeat_min_len 3
 ```
 
 ## Notes
