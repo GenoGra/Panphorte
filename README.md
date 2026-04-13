@@ -81,7 +81,7 @@ Run PANPHORTE with a custom minimum repeat length:
 ./panphorte -i data/example_1.gfa -o results --repeat_min_len 3
 ```
 
-Visualization of the graph before and after applying Panphorte. The picture are generated with the GenoGra's Platform (https://genogra.com/).
+Visualization of the graph before and after applying Panphorte. The picture are generated with the [GenoGra](https://genogra.com/)'s Platform.
 
 <table align="center">
   <tr>
