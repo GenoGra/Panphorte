@@ -88,11 +88,11 @@ Visualization of the graph before and after applying Panphorte. The picture are 
 <table align="center">
   <tr>
     <td align="center">
-      <img src="pictures/base.pdf" alt="Original graph" width="420"><br>
+      <img src="pictures/base.png" alt="Original graph" width="420"><br>
       <em>Original graph with CNV misrepresentation.</em>
     </td>
     <td align="center">
-      <img src="pictures/panphorte-only.pdf" alt="Optimized graph" width="420"><br>
+      <img src="pictures/panphorte-only.png" alt="Optimized graph" width="420"><br>
       <em>PANPHORTE output with explicit cyclic representation.</em>
     </td>
   </tr>
