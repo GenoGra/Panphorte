@@ -98,6 +98,7 @@ Visualization of the graph before and after applying Panphorte. The picture are 
 
 ## Notes
 
+- Currently, PANPHORTE only works with haplotypes written as W-lines in the GFA. P-lines support is under development.
 - The default value of `repeat_min_len` is `1`
 - The project currently builds a single executable from `src/main.cpp`
 - The `vendor/json.hpp` header is included locally through `-I./vendor`
